@@ -4,9 +4,6 @@ rm(list=ls())
 ############################################ PROGRAM DESCRIPTION
 # The purpose of this program is to determine flow speed from the drifter's GPS coordinates
 
-############################################ OUTPUT FILES
-# A .csv file with data from analysis following this trend : "Flow_analysis", date.str , ".csv" 
-
 #-------------------------------------------------------------------------------------------------------------------------------------
 # Front Matter - PACKAGES
 # geosphere for haversine formula
@@ -29,7 +26,7 @@ setwd("C:/Users/julia/Documents/Mitchell's lab CGCS internship/Flow_data")
 # Front Matter - DATA
 # In path: 
 
-#May28_2021
+#May27, 2021 field trip
 data <- read.csv("Manitouwabing_River_Inlet_May27_2021.csv")
 
 #-------------------------------------------------------------------------------------------------------------------------------------
